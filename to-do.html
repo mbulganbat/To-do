@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
+      rel="stylesheet" />
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <div class="board-comp">
+      <div class="header">
+        <div class="inputContainer">
+          <h1>To-Do List</h1>
+          <div class="inputheseg">
+            <input type="text" id="taskInput" placeholder="Add a new task..." />
+            <button id="addTaskButton">Add</button>
+          </div>
+        </div>
+        <div class="filterContainer">
+          <button class="active">All</button>
+          <button>Active</button>
+          <button>Completed</button>
+        </div>
+      </div>
+
+      <!-- Task list болон footer JS-ээр үүснэ -->
+      <div class="footer"></div>
+      <div class="credit">Powered by <a href="#">Pinecone academy</a></div>
+    </div>
+
+    <script src="./to-do.js"></script>
+  </body>
+</html>
